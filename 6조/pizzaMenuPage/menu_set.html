@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!--head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="KimSuyeop">
+    <meta name="date" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/footer.css"/>
+    <link type="text/css" rel="stylesheet" href="css/menu.css"/>
+    <link type="text/css" rel="stylesheet" href="css/header.css"/>
+    <title>피자메뉴</title>
+</head>
+
+<!--body-->
+
+<body>
+    <header>
+        <div id="h_top">
+            <div id="h_top_wrap">
+                <a href="../main_page.html"><img src="../images/pizza_logo2.png" alt="" width="80px" height="65px"></a>
+                <div class="right_login">
+                    <a href="../login/login.html">로그인</a>
+                </div>
+                <nav class="left_nav">
+                   <ul>
+                        <li><a href="menu_pizza.html">메뉴소개</a>
+                            <ul>
+                                <li><a href="menu_pizza.html">피자</a></li>
+                                <li><a href="menu_set.html">세트</a></li>
+                                <li><a href="menu_side.html">사이드</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/postion.html">매장소개</a>
+                            <ul>
+                                <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/postion.html">매장위치</a></li>
+                                <li><a href="process_franchise.html">가맹문의</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/community.html">커뮤니티</a>
+                            <ul>
+                                <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/community.html">공지사항</a></li>
+                                <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/review.html">리뷰</a></li>
+                                <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/client.html">고객의소리</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../eventPage/eventList.html">이벤트</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h1 id="menu">MENU</h1> 
+            <nav class="menu_nav">
+                <ul>
+                    <li><a href="menu_iframeHtml_image/iframe_menu/premium_pizza.html" target="menu_iframe">피자</a>
+                        <ul>
+                            <li><a href="menu_iframeHtml_image/iframe_menu/premium_pizza.html" target="menu_iframe">프리미엄</a></li>
+                            <li><a href="menu_iframeHtml_image/iframe_menu/special_pizza.html" target="menu_iframe">스페셜</a></li>
+                            <li><a href="menu_iframeHtml_image/iframe_menu/pan_pizza.html" target="menu_iframe">팬</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="menu_iframeHtml_image/iframe_menu/set_menu.html" target="menu_iframe">세트</li></a>
+                    <li><a href="menu_iframeHtml_image/iframe_menu/side_menu.html" target="menu_iframe">사이드</li></a>
+
+                </ul>
+            </nav>
+        </div>
+        <!--iframe -->
+        <!-- 메뉴 소개 메뉴선택부분 -->
+        <div>
+            <iframe src="menu_iframeHtml_image/iframe_menu/set_menu.html"  name="menu_iframe" frameborder="0"></iframe> 
+        </div>
+    </section>
+    <footer>
+        <div id="f_box1">
+            <div class="imp">
+                <a href="#">개인정보</a> | <a href="#">이용약관</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

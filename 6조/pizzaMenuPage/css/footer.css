@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* footer 스타일 */
+#f_box1 {
+    padding-top: 25px;
+    background-color: gray;
+    height: 80px;
+    margin-top: 50px;
+}
+
+.imp {
+    text-align: center;
+    height: 50px;
+}

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu_wrap {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/*각 메뉴음식 위치조정*/
+.preP1,
+.preP2,
+.preP3,
+.preP4,
+.preP5,
+.preP6 {
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin:55px;
+    border-radius: 15px;
+    ;
+
+}
+
+/*이름/가격/사이즈 묶음 조정*/
+.preP_wrap {
+    margin-top :30px;
+    margin-left:20px;
+}
+
+/*각 메뉴 음식 이름 위치 조정*/
+.preP_name {
+    margin: 20px 30px 15px 20px;
+    font-size: 20px;
+    padding-left : 20px
+}
+
+/*m사이즈 표시*/
+.M_size {
+    margin-left: 40px;
+    border-radius: 40%;
+    background-color: #f8e8e8;
+    color: #de4b50;
+    padding: 3px;
+
+}
+
+/*L사이즈 표시*/
+.L_size {
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 3px 7px 3px 7px;
+    border-radius: 40%;
+    background-color: #f8e8e8;
+    color: #de4b50;
+}
+
+/*가격 위치 조정*/
+.price {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/*메뉴 hover시 효과*/
+.preP1:hover {
+    box-shadow: 0 8px 25px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.preP2:hover {
+    box-shadow: 0 8px 25px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.preP3:hover {
+    box-shadow: 0 8px 25px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.preP4:hover {
+    box-shadow: 0 8px 25px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.preP5:hover {
+    box-shadow: 0 8px 25px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.preP6:hover {
+    box-shadow: 0 8px 25px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height : 300px;
+    margin-left: 25px;
+    margin-top : 20px;
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 매장위치 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 1200px;
+}
+#p_box1 {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#p_box1_top{
+    width: 500px;
+    height: 65px;
+    text-align: center;
+    font-size: 70px;
+}
+#p_box1_middle{
+    width: 500px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+#p_box1_bottom{
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#p_box2{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.p_box_bottom>ul>li{
+    list-style-type: none;
+}
+.p_box_head{
+    margin: 0 auto;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.p_box_bottom{
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.p_box_bottom>ul{
+    margin-top: 40px;
+}
+#p_box3{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+#p_box3>img{
+    width: 800px;
+    height: 600px;
+}
+p{
+    text-align: center;
+}

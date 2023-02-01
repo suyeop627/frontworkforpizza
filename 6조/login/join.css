@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: left;
+  margin-left: 200px;
+  font-size: 30px;
+}
+#box {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+#id {
+  width: 100%;
+  background-color: white;
+  border: 0;
+  padding: 10px;
+  box-shadow: 0 1px 0 0#000;
+}
+#nam {
+  width: 100%;
+  background-color: white;
+  border: 0;
+  padding: 10px;
+  box-shadow: 0 1px 0 0#000;
+}
+#password {
+  width: 100%;
+  background-color: white;
+  border: 0;
+  box-shadow: 0 1px 0 0#000;
+}
+#agree {
+  background-color: white;
+}
+#log {
+  width: 430px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 15px;
+  background-color: #da1a32;
+  color: white;
+}

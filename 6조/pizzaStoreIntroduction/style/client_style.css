@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+#c_box1 {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#c_box1_top{
+    width: 500px;
+    height: 65px;
+    text-align: center;
+    font-size: 70px;
+}
+#c_box1_middle{
+    width: 500px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+#c_box1_bottom{
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+#c_box_bottom {
+    height: 55px;
+    margin: 0, auto;
+}
+#c_box2 {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+table {
+    border-top: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 70px;
+}
+
+
+td {
+    width: 960px;
+    border: 1px solid #cccccc;
+}
+
+td:first-child {
+    width: 200px;
+    height: 60px;
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+/*입력창 크기 지정*/
+input {
+    width: 760px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/*라디오 버튼 크기*/
+.radio {
+    width: 20px;
+}
+
+
+/*문의 내용*/
+textarea {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 760px;
+}
+
+
+/*정보이용동의*/
+#checkbox {
+    width: 20px;
+}
+
+
+
+/*하단 버튼 두개*/
+#button_wrap {
+    text-align: center;
+}
+
+
+/*작성완료 버튼*/
+input#submitB {
+    width: 80px;
+    cursor: pointer;
+}
+
+
+/*취소버튼*/
+button {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 60px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+#poetry {
+    margin-left: 45px;
+    float: left;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+#district {
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+#store {
+    float: left;
+    width: 200px;
+    margin: 5px 0px;
+    margin-left: 45px;
+}
+
+
+/*하단 버튼 두개*/
+#button_wrap {
+    text-align: center;
+}
+
+
+/*작성완료 버튼*/
+input#submitB {
+    width: 80px;
+    cursor: pointer;
+}
+
+
+/*취소버튼*/
+button {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 60px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 70px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_footer.css">
+    <title>로그인</title>
+    <style>
+      #login_title {
+        width: 50%;
+        height: 150px;
+        margin-left: 200px;
+        font-size: 30px;
+      }
+      #log{
+          width: 350px;
+          height: 21.5px;
+      }
+      #id{
+          width: 350px;
+          margin: auto;
+      }
+      #password{
+          width: 350px;
+          margin: auto;
+      }
+      #log{
+        margin: auto;
+      }
+      li{
+        list-style: none;
+      }
+      .yo{
+        font-size: 50px;
+      }
+      .top_txt{
+        width: 500px;
+      }
+      #click li{
+        display: inline-block; 
+        font-size: 20px;
+      }
+      #font{
+        width: 550px;
+      }
+      #click{
+        padding: 0%;
+      }
+      #id {
+          width: 100%;
+          background-color: white;
+          border: 0;
+          padding: 10px;
+          box-shadow: 0 1px 0 0#000;
+          
+        }
+      #password{
+        width: 100%;
+        background-color: white;
+        border: 0;
+        padding: 10px;
+        box-shadow: 0 1px 0 0#000;
+      }
+      a { 
+        text-decoration: none;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="h_top">
+        <div id="h_top_wrap">
+          <a href="../main_page.html"><img src="../images/pizza_logo2.png" alt="" width="80" height="65"></a>
+          <div class="right_login">
+            <a href="login.html">로그인</a>
+          </div>
+          <nav class="left_nav">
+            <ul>
+              <li><a href="../pizzaMenuPage/menu_pizza.html">메뉴소개</a>
+                <ul>
+                  <li><a href="../pizzaMenuPage/menu_pizza.html">피자</a></li>
+                  <li><a href="../pizzaMenuPage/menu_set.html">세트</a></li>
+                  <li><a href="../pizzaMenuPage/menu_side.html">사이드</a></li>
+                </ul>
+              </li>
+              <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/postion.html">매장소개</a>
+                <ul>
+                  <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/postion.html">매장위치</a></li>
+                  <li><a href="../pizzaMenuPage/process_franchise.html">가맹문의</a></li>
+                </ul>
+              </li>
+              <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/community.html">커뮤니티</a>
+                <ul>
+                  <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/community.html">공지사항</a></li>
+                  <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/review.html">리뷰</a></li>
+                  <li><a href="../pizzaStoreIntroduction/storeIntroductionPage/client.html">고객의소리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../eventPage/eventList.html">이벤트</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section>
+      <h2 id="login_title">로그인</h2>
+      <div id="log">
+      <div class="top_txt">
+        <p class="yo">로그인하고<br>큰 혜택을 즐기세요!</p>
+      </div>
+      <form method="post" id="font">
+          <label for="id" style="font-size: 30px;">이메일(ID)</label><br />
+          <input type="text" id="id" name="id"  placeholder="이메일(id)주소를 입력해주세요."style="font-size: 20px;border: 0 solid black;" /><br />
+          <br>
+          <label for="passwprd"style="font-size: 30px;">비밀번호</label><br />
+          <input type="password" id="password" name="password"  placeholder="비밀번호를 입력해주세요"style="font-size: 20px; border: 0 solid black;" /><br />
+          <br>
+          <input type="checkbox" name="agree" id="agree"/><label for="agree"style="font-size: 20px;"
+          >자동로그인<br>
+          <br>
+          <button id="logstyle=" style="width: 560px; height: 50px; font-size: 25px; background-color: white;border-radius: 15px;" >로그인</button>
+          <div>
+            <ul id="click">
+              <li> <a href="">이메일 찾기 |</a></li>
+              <li><a href="">비밀번호 재설정 |</a></li>
+              <li><a href="join.html">회원가입 |</a></li>
+              <li><a href=""> 비회원 주문조회</a></li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <div id="f_box1">
+        <div class="imp">
+          <a href="#">개인정보</a> | <a href="#">이용약관</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

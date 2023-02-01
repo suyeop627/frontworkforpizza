@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*header*/
+
+
+section {
+    width: 1440px;
+    text-align: center;
+    margin : 0 auto;
+}
+
+
+/*가맹 절차*/
+
+div#Fs_title{
+    width : 1440px;
+    font-size: 70px;
+    height : 60px;
+    font-weight: bold;
+    margin-bottom : 70px;
+}
+
+
+.F_process{
+    width : 1420px;
+    height : 600px;
+    margin-bottom : 20px;
+
+
+}
+.prFlow {
+    margin : 15px;
+    border : 1px solid black;
+    width : 435px;
+    height : 250px;
+    float : left ;
+    
+}
+span {
+    font-size : 25px;
+    font-weight: bold;
+}
+
+.prFlow>img {
+    margin : 50px;
+    width : 100px;
+
+}
+
+
+
+
+/*비용 테이블*/
+table {
+    margin : 30px;
+}
+table, th, tr, td {
+    border-collapse : collapse;
+    border :1px solid #ddd;
+    height : 45px;
+    
+ }  
+ caption { 
+    margin-bottom: 30px;
+ }
+ th { 
+    width : 460px;
+    background-color: #e50000;
+    color : white;
+    font-size: 18px;
+    
+ }
+
+
+ /*별도항목*/
+div#additionalCost {
+    float: left;
+    text-align: left;
+    margin-left : 50px;
+    margin-bottom :50px;
+}
+div>p:first-child{
+    color: red;
+    font-weight: bold;
+}
+
+/*신청하기 버튼*/
+button {
+    width : 120px;
+    height : 60px;  
+    margin-bottom : 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+

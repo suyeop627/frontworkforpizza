@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* 헤더스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Noto Sans KR', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #fff;
+    opacity: 0.5px;
+    border-bottom: 1px solid black;
+    z-index: 10;
+}
+
+li {
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    float: left;
+    margin-right: 50px;
+    line-height: 60px;
+}
+
+#h_top {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.left_nav {
+    float: right;
+    margin-right: 80px;
+}
+
+.left_nav>ul>li {
+    text-align: center;
+    padding: 20px;
+    width: 120px;
+    float: left;
+    transition: margin-left 0.5s;
+}
+
+.left_nav>ul>li>ul {
+    color: white;
+    display: none;
+}
+.left_nav>ul>li:hover>a {
+    transition: 1s;
+    color:red;
+}
+.left_nav>ul>li>ul>li {
+    padding: 10px;
+    background-color:  #fff;
+}
+.left_nav>ul>li>ul>li:hover {
+    transition: 1s;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left_nav>ul>li>ul>li:hover>a {
+    color: white;
+}
+
+.left_nav>ul>li:hover>ul {
+    display: block;
+}
+
+.right_login {
+    float: right;
+    margin-left: 50px;
+    line-height: 62px;
+}
+.right_login:hover>a {
+    transition: 1s;
+    color: red;
+}
+
+/*여기 까지가 header 부분*/
+section {
+    padding-top: 100px;
+}
+
+section>div {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#s_box2 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+#s_box2>div {
+    width: 400px;
+    height: 300px;
+    transition: 2s;
+    border-radius: 25px;
+}
+#s_box2>div:hover {
+    transform: scale(1.2);
+}
+#s_box2>div:nth-child(1) {
+    position: relative;
+    background: url("/images/american.jpg");
+    background-size: cover;
+}
+#s_box2>div:nth-child(2) {
+    position: relative;
+    background: url("/images/bulgogi.jpg");
+    background-size: cover;
+}
+#s_box2>div:nth-child(3) {
+    position: relative;
+    background: url("/images/cheese_stake.jpg");
+    background-size: cover;
+}
+
+
+
+
+

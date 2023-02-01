@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*html*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*header - 별도의 link*/
+
+/*section*/
+section {
+    text-align: center;
+}
+
+/*메뉴 구조 설정*/
+h1#menu {
+    text-align: center;
+    margin-bottom: 70px;
+    width: 1440px;
+    float: left;
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+
+
+/*메뉴바 - 피자 세트 사이드 위치 설정*/
+nav.menu_nav>ul>li {
+    float: left;
+    width: 475px;
+    position: relative;
+}
+
+
+/*메뉴바 - 프리미엄 스페셜 팬 피자 위치 설정*/
+nav.menu_nav>ul>li>ul>li {
+    width: 150px;
+    height: 100px;
+    float: left;
+    font-size: 18px;
+    margin: 10px 10px 0 0;
+}
+
+
+nav.menu_nav>ul>li>ul>li:first-child {
+    margin-left: 15px;
+}
+
+nav.menu_nav>ul>li>ul>li:last-child {
+    margin-left: -20px;
+}
+
+
+
+/*피자 하위메뉴 드롭다운*/
+nav.menu_nav>ul>li:hover>ul {
+    display: block;
+}
+
+nav.menu_nav>ul>li>ul {
+    display: none;
+    position: absolute;
+}
+
+
+
+/*menu hover 효과*/
+.menu_nav>ul>li {
+    margin-left: 4px;
+    font-size: 20px;
+    border-bottom: 4px solid #e6e5e5
+}
+
+.menu_nav>ul>li:hover {
+    border-bottom: 4px solid red;
+
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+nav.menu_nav>ul>li>ul>li>a:hover {
+    border-bottom: 1px solid red;
+
+}
+
+
+/*iframe margin*/
+iframe {
+    margin: 30px;
+    width: 1400px;
+    height: 1300px;
+}
+
+
+
+
+/*footer*/
